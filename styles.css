@@ -1,0 +1,69 @@
+.container{
+  display: flex;
+  width: 30rem;
+  height: 30rem;
+  background-color: rgb(60, 59, 59);
+  border-radius: 5%;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-shadow: rgb(128, 128, 128);
+  margin: 5rem;
+  border: solid 3px black;
+}
+span{
+  font-size: 5rem;
+  height: 5rem;
+  width: 100%;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+h1{
+  text-align:left;
+  width: 75%;
+  height: 5rem;
+  font-size: 3rem;
+  color: white;
+  font-family:cursive;
+}
+#botoes{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+  justify-content: space-around;
+  width: 100%;
+}
+button{
+  cursor: pointer;
+  height: 5rem;
+  font-size: large;
+  border-radius: 30%;
+  color: white;
+  background-color: rgba(35, 34, 34, 0.901);
+  border: solid 2px black;
+}
+body{
+  display: flex;
+  justify-content: center;
+  height: 100hv;
+  align-items: center;
+  margin: 0;
+  background-color: gray;
+}
+#imagem{
+  height: 5rem;
+  width: 25%;
+  border-radius: 50%;
+  padding: 2rem;
+}
+#logo{
+  display: flex;
+  flex-direction: row;
+  height: 6rem;
+  width: 100%;
+  align-items: center;
+  justify-content:start;
+}
